@@ -3,7 +3,7 @@
     <BaixarEstoque :listaProdutos="baixarProdutosEstoque" />
     <v-card>
       <v-card-title>
-        Lista de produtos Teatime
+        Lista de produtos Teatimeeee
         <v-spacer></v-spacer>
         <v-text-field
           v-model="search"
