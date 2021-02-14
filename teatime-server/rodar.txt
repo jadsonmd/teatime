@@ -1,0 +1,7 @@
+#Para rodar esse sistema execute
+
+# Na pasta: C:\Program Files\MongoDB\Server\3.0\bin
+mongod
+
+# Iniciar a aplicação rode:
+node .\app.js
