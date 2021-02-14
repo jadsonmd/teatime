@@ -16,15 +16,15 @@ const resolverFornecedor = require('./service/fornecedor/resolver');
 const mergedSchema = mergeSchemas({
   schemas: [
     schemaCliente,
+    schemaFornecedor,
     schemaProduto,
-    schemaFornecedor
   ]
 });
 
 const mergedResolvers = mergeResolvers([
   resolverCliente,
+  resolverFornecedor,
   resolverProduto,
-  resolverFornecedor
   ]
 );
 

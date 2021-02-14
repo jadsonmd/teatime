@@ -1,5 +1,5 @@
 const MongoClient = require("mongodb").MongoClient;
-const mongoURL = "mongodb://localhost:27017/";
+const mongoURL = "mongodb://192.168.0.17:27017/";
 
 module.exports = {
   mongoDB: async function () {

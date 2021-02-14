@@ -1,14 +1,14 @@
 const { buildSchema } = require('graphql');
 
 const schema = buildSchema(`
-  type Forn {
+  type Fornecedor {
     _id: String
     nome: String
     descricao: String
   }
 
   type Query {
-    findFornById(_id: String): Forn
+    findFornecedorById(_id: String): Fornecedor
   }
 
 `);
